@@ -1,0 +1,157 @@
+:root {
+    --amarelo: #EFDD35;
+    --cinza: #202020;
+  }
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #111111;
+}
+.container-fluid{
+    width: 90% !important;
+}
+.navbar{
+    background-color: #111111;
+}
+.nav-link{
+    color: #fff !important;
+}
+.nav-link:hover{
+    color: var(--amarelo) !important;
+}
+.nav-link:active{
+    color: var(--amarelo) !important;
+}
+h1{
+    font-size: 4em;
+}
+h2{
+    color: rgb(240, 240, 240);
+    padding-bottom: 25px;
+
+}
+h2::after{
+    content: "";
+    color: var(--amarelo);
+    border: 3px solid;
+    font-size: 0px;
+    border-radius: 100%;
+    margin-left: 10px;
+    
+
+}
+h3{
+    color: #ebebeb;
+}
+P, a{
+    color: #cecece;
+    text-decoration: none;
+}
+a{
+    font-size: 1.2em;
+}
+#inicio{
+    padding-top: 200px;
+
+}
+#inicio p{
+    font-size: 3em;
+    font-weight: 100;
+}
+#inicio img{
+    width: 250px;
+}
+
+#sobre{
+
+    padding-top: 90px;
+}
+#sobre img{
+    border-radius: 100%;
+    width: 300px;
+    border-right: 0.1px solid #efdc358f;
+}
+#sobre a{
+    border: 1px solid var(--amarelo);
+    border-radius: 8px;
+    color: var(--amarelo);;
+    padding: 10px 30px;
+    background-color: var(--cinza);
+}
+#sobre a:hover{
+    padding: 11px 31px;
+}
+#projetos {
+    padding-top: 90px;
+}
+
+#projetos .card-projeto{
+    background-color: var(--cinza);
+    width: 380px;
+    padding: 20px;
+    height: 280px;
+
+}
+#projetos .card-projeto:hover, #habilidades .card-habilidade:hover{
+    border: 0.1px solid #efdc3570;
+    height: 280px;
+
+}
+#progetos .ver-todos{
+    text-align: center !important;
+}
+#projetos a:hover{
+    color: var(--amarelo);
+    
+
+}
+#habilidades {
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+#habilidades .card-habilidade{
+    text-align: center;
+    background-color: var(--cinza);
+    padding: 20px;
+}
+#habilidades svg{
+    color: var(--amarelo);
+    font-size: 2.5em;
+
+}
+footer svg{
+    color: #fff;
+    font-size: 1.5em !important;
+}
+/* Responsivo */
+@media only screen and (max-width: 574px) {
+    #inicio img{
+        display: none !important;
+    }
+    #inicio h1{
+        font-size: 3em;
+    }
+    #inicio p{
+        font-size: 2em;
+    }
+    #sobre h2{
+        padding-top: 20px;
+    }
+    #sobre a{
+        margin-top: 20px;
+    }
+    #projetos .card-projeto{
+        margin-bottom: 20px;
+    }
+    #projetos .ver-todos{
+        text-align: left !important;
+    }
+    #habilidades .row{
+        padding: 0px !important;
+    }
+    #habilidades .card-habilidade{
+        margin-bottom: 20px;
+    }
+}
