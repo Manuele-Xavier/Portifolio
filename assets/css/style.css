@@ -89,12 +89,11 @@ a{
 
 #projetos .card-projeto{
     background-color: var(--cinza);
-    width: 380px;
     padding: 20px;
     height: 280px;
 
 }
-#projetos .card-projeto:hover, #habilidades .card-habilidade:hover{
+#projetos .card-projeto:hover{
     border: 0.1px solid #efdc3570;
     height: 280px;
 
@@ -115,6 +114,9 @@ a{
     text-align: center;
     background-color: var(--cinza);
     padding: 20px;
+}
+#habilidades .card-habilidade:hover{
+    border: 0.1px solid #efdc3570;
 }
 #habilidades svg{
     color: var(--amarelo);
@@ -145,9 +147,7 @@ footer svg{
     #projetos .card-projeto{
         margin-bottom: 20px;
     }
-    #projetos .ver-todos{
-        text-align: left !important;
-    }
+  
     #habilidades .row{
         padding: 0px !important;
     }
