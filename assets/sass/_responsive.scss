@@ -1,0 +1,34 @@
+@media only screen and (max-width: 574px) {
+    #inicio {
+        img{
+            display: none !important;
+        }
+        h1{
+            font-size: 3em;
+        }
+        p{
+            font-size: 2em;
+        }
+    }
+    #sobre{
+        h2{
+            padding-top: 20px;
+        }
+        a{
+            margin-top: 20px;
+        }
+    }
+    #projetos{
+        .card-projeto{
+            margin-bottom: 20px;
+        }
+    } 
+    #habilidades{
+        .row{
+            padding: 0px !important;
+        }
+        .card-habilidade{
+            margin-bottom: 20px;
+        }
+    } 
+}

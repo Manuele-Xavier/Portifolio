@@ -1,157 +1,142 @@
-:root {
-    --amarelo: #EFDD35;
-    --cinza: #202020;
-  }
-*{
-    padding: 0px;
-    margin: 0px;
-}
-body{
-    background-color: #111111;
-}
-.container-fluid{
-    width: 90% !important;
-}
-.navbar{
-    background-color: #111111;
-}
-.nav-link{
-    color: #fff !important;
-}
-.nav-link:hover{
-    color: var(--amarelo) !important;
-}
-.nav-link:active{
-    color: var(--amarelo) !important;
-}
-h1{
-    font-size: 4em;
-}
-h2{
-    color: rgb(240, 240, 240);
-    padding-bottom: 25px;
-
-}
-h2::after{
-    content: "";
-    color: var(--amarelo);
-    border: 3px solid;
-    font-size: 0px;
-    border-radius: 100%;
-    margin-left: 10px;
-    
-
-}
-h3{
-    color: #ebebeb;
-}
-P, a{
-    color: #cecece;
-    text-decoration: none;
-}
-a{
-    font-size: 1.2em;
-}
-#inicio{
-    padding-top: 200px;
-
-}
-#inicio p{
-    font-size: 3em;
-    font-weight: 100;
-}
-#inicio img{
-    width: 250px;
-}
-
-#sobre{
-
-    padding-top: 90px;
-}
-#sobre img{
-    border-radius: 100%;
-    width: 300px;
-    border-right: 0.1px solid #efdc358f;
-}
-#sobre a{
-    border: 1px solid var(--amarelo);
-    border-radius: 8px;
-    color: var(--amarelo);;
-    padding: 10px 30px;
-    background-color: var(--cinza);
-}
-#sobre a:hover{
-    padding: 11px 31px;
-}
-#projetos {
-    padding-top: 90px;
-}
-
-#projetos .card-projeto{
-    background-color: var(--cinza);
-    padding: 20px;
-    height: 280px;
-
-}
-#projetos .card-projeto:hover{
-    border: 0.1px solid #efdc3570;
-    height: 280px;
-
-}
-#progetos .ver-todos{
-    text-align: center !important;
-}
-#projetos a:hover{
-    color: var(--amarelo);
-    
-
-}
-#habilidades {
-    padding-top: 90px;
-    padding-bottom: 120px;
-}
-#habilidades .card-habilidade{
-    text-align: center;
-    background-color: var(--cinza);
-    padding: 20px;
-}
-#habilidades .card-habilidade:hover{
-    border: 0.1px solid #efdc3570;
-}
-#habilidades svg{
-    color: var(--amarelo);
-    font-size: 2.5em;
-
-}
-footer svg{
-    color: #fff;
-    font-size: 1.5em !important;
-}
-/* Responsivo */
 @media only screen and (max-width: 574px) {
-    #inicio img{
-        display: none !important;
-    }
-    #inicio h1{
-        font-size: 3em;
-    }
-    #inicio p{
-        font-size: 2em;
-    }
-    #sobre h2{
-        padding-top: 20px;
-    }
-    #sobre a{
-        margin-top: 20px;
-    }
-    #projetos .card-projeto{
-        margin-bottom: 20px;
-    }
-  
-    #habilidades .row{
-        padding: 0px !important;
-    }
-    #habilidades .card-habilidade{
-        margin-bottom: 20px;
-    }
+  #inicio img {
+    display: none !important;
+  }
+  #inicio h1 {
+    font-size: 3em;
+  }
+  #inicio p {
+    font-size: 2em;
+  }
+
+  #sobre h2 {
+    padding-top: 20px;
+  }
+  #sobre a {
+    margin-top: 20px;
+  }
+
+  #projetos .card-projeto {
+    margin-bottom: 20px;
+  }
+
+  #habilidades .row {
+    padding: 0px !important;
+  }
+  #habilidades .card-habilidade {
+    margin-bottom: 20px;
+  }
 }
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #111111;
+}
+body .container-fluid {
+  width: 90% !important;
+}
+body header .nav-bar {
+  background-color: #111111;
+}
+body header .nav-link {
+  color: #fff !important;
+}
+body header .nav-link:hover {
+  color: #EFDD35 !important;
+}
+body main h1 {
+  font-size: 4em;
+}
+body main h2 {
+  color: #f0f0f0;
+  padding-bottom: 25px;
+}
+body main h2::after {
+  content: "";
+  color: var(--amarelo);
+  border: 3px solid;
+  font-size: 0px;
+  border-radius: 100%;
+  margin-left: 10px;
+}
+body main h3 {
+  color: #ebebeb;
+}
+body main p, body main a {
+  color: #cecece;
+  text-decoration: none;
+}
+body main a {
+  font-size: 1.2em;
+}
+body main #inicio {
+  padding-top: 200px;
+}
+body main #inicio p {
+  font-size: 3em;
+  font-weight: 100;
+}
+body main #inicio img {
+  width: 250px;
+}
+body main #sobre {
+  padding-top: 90px;
+}
+body main #sobre img {
+  border-radius: 100%;
+  width: 300px;
+  border-right: 0.1px solid #efdc358f;
+}
+body main #sobre a {
+  border: 1px solid #EFDD35;
+  border-radius: 8px;
+  color: #EFDD35;
+  padding: 10px 30px;
+  background-color: #202020;
+}
+body main #sobre a:hover {
+  padding: 11px 31px;
+}
+body main #projetos {
+  padding-top: 90px;
+}
+body main #projetos .card-projeto {
+  background-color: #202020;
+  padding: 20px;
+  height: 280px;
+}
+body main #projetos .card-projeto:hover {
+  border: 0.1px solid #efdc3570;
+  height: 280px;
+}
+body main #projetos .ver-todos a:hover {
+  color: #EFDD35 !important;
+}
+body main #habilidades {
+  padding-top: 90px;
+  padding-bottom: 120px;
+}
+body main #habilidades .card-habilidade {
+  text-align: center;
+  background-color: #202020;
+  padding: 20px;
+}
+body main #habilidades .card-habilidade:hover {
+  border: 0.1px solid #efdc3570;
+}
+body main #habilidades svg {
+  color: #EFDD35;
+  font-size: 2.5em;
+}
+body footer {
+  color: #fff;
+}
+body footer svg {
+  font-size: 1.5em !important;
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */

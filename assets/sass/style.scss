@@ -1,0 +1,126 @@
+@import './variables';
+@import './responsive';
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: $bg-main;
+    .container-fluid{
+        width: 90% !important;
+    }
+    header{
+        .nav-bar{
+            background-color: $bg-main;
+        }
+        .nav-link{
+            color: #fff !important;
+            &:hover{
+                color: $yellow !important;
+            }
+        }
+    }
+    
+    main{
+        h1{
+            font-size: 4em;
+        }
+        h2{
+            color: rgb(240, 240, 240);
+            padding-bottom: 25px;
+            &::after{
+                content: "";
+                color: var(--amarelo);
+                border: 3px solid;
+                font-size: 0px;
+                border-radius: 100%;
+                margin-left: 10px;
+            
+            }
+        
+        }
+      
+        h3{
+            color: #ebebeb;
+        }
+        p, a{
+            color: #cecece;
+            text-decoration: none;
+        }
+        a{
+            font-size: 1.2em;
+        }
+        #inicio{
+            padding-top: 200px;
+            p{
+                font-size: 3em;
+                font-weight: 100;
+            }
+            img{
+                width: 250px;
+            }
+        }
+        #sobre{
+            padding-top: 90px;
+            img{
+                border-radius: 100%;
+                width: 300px;
+                border-right: 0.1px solid #efdc358f;
+            }
+            a{
+                border: 1px solid $yellow;
+                border-radius: 8px;
+                color: $yellow;;
+                padding: 10px 30px;
+                background-color: $gray;
+                &:hover{
+                    padding: 11px 31px;
+                }
+            }
+        }
+        #projetos {
+            padding-top: 90px;
+            .card-projeto{
+                background-color: $gray;
+                padding: 20px;
+                height: 280px;
+                &:hover{
+                    border: 0.1px solid #efdc3570;
+                    height: 280px;
+                }
+            
+            }
+            .ver-todos a{
+                &:hover{
+                    color: $yellow !important;
+                }
+            }
+            
+        }
+        #habilidades {
+            padding-top: 90px;
+            padding-bottom: 120px;
+            .card-habilidade{
+                text-align: center;
+                background-color: $gray;
+                padding: 20px;
+                &:hover{
+                    border: 0.1px solid #efdc3570;
+                }
+            }
+            svg{
+                color:$yellow;
+                font-size: 2.5em;
+            
+            }
+        }
+       
+    }
+    footer{
+        color: #fff;
+        svg{
+            font-size: 1.5em !important;
+            color: #fff;
+        }
+    }
+}
