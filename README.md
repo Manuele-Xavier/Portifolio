@@ -1,4 +1,4 @@
-## meu Portifólio 
+## Meu portifólio 
 <img src="assets/img/site.png" alt="imagem do site">
 
 ### 📚 Seções
@@ -11,6 +11,7 @@
 ### 🔨 Ferramentas utilizadas
 
 - HTML
+- CSS
 - SASS
 
 <a href="https://manuele-xavier.github.io/Portifolio/">Link da aplicação</a>
